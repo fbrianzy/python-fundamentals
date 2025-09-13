@@ -1,9 +1,10 @@
-# Python Fundamentals Megaproject
+# Python Fundamentals
 
 A comprehensive, sectioned repository to learn and review core Python fundamentals.  
 Each section lives in its own folder with a dedicated `README.md`, minimal theory, runnable examples, and small exercises you can try immediately.
 
 ## How to use
+
 1. Navigate to a section folder (e.g., `07-conditional-logic`).
 2. Read the `README.md` for concise explanations and examples.
 3. Run the example scripts:
@@ -15,6 +16,7 @@ Each section lives in its own folder with a dedicated `README.md`, minimal theor
 6. Progress sequentially or jump to topics you need.
 
 ## Sections Overview
+
 - 01 Getting Started (setup, running Python)
 - 02 Variables & Data Types
 - 03 Strings
@@ -45,4 +47,3 @@ Each section lives in its own folder with a dedicated `README.md`, minimal theor
 - 28 Project Structure
 - 29 Notebook & Data Basics (optional)
 - 30 Practice Projects
-
