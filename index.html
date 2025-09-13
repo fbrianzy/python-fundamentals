@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Fundamentals - Interactive Learning Platform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>Python Fundamentals</h1>
+                <p>Interactive Learning Platform</p>
+            </div>
+            <ul class="chapter-list" id="chapterList">
+                <li class="chapter-item">
+                    <a href="#" class="chapter-link active" data-section="welcome">
+                        <span class="chapter-number">🏠</span>
+                        Welcome
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome Section -->
+            <section class="content-section active" id="welcome">
+                <div class="welcome-section">
+                    <h1 class="welcome-title">Python Fundamentals</h1>
+                    <p class="welcome-subtitle">Master Python from basics to advanced concepts through interactive learning</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">30</div>
+                            <div class="stat-label">Chapters</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Code Examples</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">60+</div>
+                            <div class="stat-label">Exercises</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Possibilities</div>
+                        </div>
+                    </div>
+
+                    <div class="learning-objectives">
+                        <h3>What You'll Learn</h3>
+                        <ul class="objectives-list">
+                            <li>Python syntax and fundamental concepts</li>
+                            <li>Data types, collections, and control flow</li>
+                            <li>Functions, modules, and object-oriented programming</li>
+                            <li>File I/O, error handling, and best practices</li>
+                            <li>Testing, debugging, and project structure</li>
+                            <li>Web APIs, concurrency, and advanced topics</li>
+                        </ul>
+                    </div>
+
+                    <p style="color: #94a3b8; font-size: 1.1rem; margin-top: 2rem;">
+                        Select a chapter from the sidebar to begin your Python journey! 🐍✨
+                    </p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="assets/app.js" defer></script>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    © <span id="year"></span> by 
+    <a href="https://github.com/fbrianzy/python-fundamentals" target="_blank" rel="noopener">@fbrianzy</a>
+    — Python Fundamentals.
+  </div>
+</footer>
+<script>
+  (function(){ var y=document.getElementById('year'); if(y){ y.textContent=new Date().getFullYear(); } })();
+</script>
+</body>
+</html>
